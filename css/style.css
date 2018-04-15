@@ -1,0 +1,50 @@
+:root {
+    --main-blue: #235689;
+    --speel-blue: #1a6ac1;
+    --speel-geel: #fed74c;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+body{
+    font-family: 'Agency FB', Arial, Helvetica, sans-serif;
+}
+
+header {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #333;
+}
+
+#brand {
+    width: 100%;
+    padding: 5px;
+    font-size: 22px;
+    color: var(--speel-geel);
+}
+
+nav a{
+    padding: 10px 5px;
+    display: inline-block;
+    width: 250px;
+    margin: 5px;
+    color: #eee;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background: var(--speel-geel);
+    color: var(--speel-blue);
+}
