@@ -24,7 +24,7 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: #333;
+    background: var(--speel-blue);
 }
 
 #brand {
@@ -47,4 +47,32 @@ nav a{
 nav a:hover {
     background: var(--speel-geel);
     color: var(--speel-blue);
+}
+
+#welcome-wrap {
+    background: #ccc;
+}
+
+#welcome {
+    display: flex;
+    padding: 10px;   
+}
+
+#img {
+    margin: 0 10px 0 0;
+}
+
+#welcome-text {
+    text-align: center;
+    width: 100%;
+    margin: auto 0;
+}
+
+#welcome-text h2 {
+    color: var(--main-blue);
+    font-size: 32px;
+}
+
+#welcome-text p {
+    font-size: 28px;
 }
