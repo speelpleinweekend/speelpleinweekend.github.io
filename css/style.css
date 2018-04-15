@@ -68,11 +68,18 @@ nav a:hover {
     margin: auto 0;
 }
 
-#welcome-text h2 {
+.fancy {
     color: var(--main-blue);
     font-size: 32px;
 }
 
 #welcome-text p {
     font-size: 28px;
+}
+
+#links a {
+    text-decoration: none;
+    color: var(--speel-blue);
+    display: block;
+    font-size: 20px;
 }
