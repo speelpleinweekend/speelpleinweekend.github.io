@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/img/user.png">
     <title>Speelpleinweekend 3018</title>
 </head>
 <body>
@@ -20,8 +21,44 @@
             </nav>
         </div>
     </header>
-    <div id="main">
-        
+    <div id="welcome-wrap">
+        <div class="container">
+            <div id="welcome">
+                <div id="welcome-text">
+                    <h2 class="fancy">No cheating!</h2>
+                    <p style="font-size:20px">Looking at you Toye, Matthijs en alle andere nerds!</p>
+                </div>
+            </div> 
+        </div>
     </div>
+    <div id="login">
+        <div class="container">
+            <form id="login-form">
+                <input id="uname" type="text" placeholder="Jouw voornaam">
+                <input id="pass" type="password" placeholder="Jouw wachtwoord">
+                <button id="login-btn" class="action confirm">LOGIN</button>
+            </form>
+        </div>
+    </div>
+    <div id="invite">
+        <div class="container">
+            <p>Bij deze zijt gij uitgenodigd voor het Speelpleinweekend 3018</p><br>
+            <p>
+                In een tijd hier ver vandaan, waar we ons afvragen of de mensheid nog zal bestaan en of de wereld al niet is vergaan<br>
+                Op deze reis door de tijd, naar plaatsen waar men zich afvraagt of ze wel nog zullen bestaan <br>
+                Een tijd waarin wij communiceren gaan in binair <br>
+                terwijl we genieten van een STELLAir <br>
+                Zult gij verkleed toekomen als <span id="tenue"></span>
+            </p><br>
+            <h3 class="fancy">
+                Nuttige info
+            </h3>
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <script src="/js/data.js"></script>
+    <script src="/js/login.js"></script>
 </body>
 </html>

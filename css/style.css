@@ -1,7 +1,7 @@
 :root {
-    --main-blue: #235689;
     --speel-blue: #1a6ac1;
     --speel-geel: #fed74c;
+    --main-red: #cd1232;
 }
 
 * {
@@ -12,6 +12,25 @@
 .container {
     width: 85%;
     margin: auto;
+}
+
+.action {
+    padding: 10px;
+    border: none
+}
+
+.confirm {
+    background: var(--speel-blue);
+    color: #fff;
+}
+
+.failed {
+    color: var(--main-red);
+}
+
+.fancy {
+    color: var(--speel-blue);
+    font-size: 32px;
 }
 
 body{
@@ -68,11 +87,6 @@ nav a:hover {
     margin: auto 0;
 }
 
-.fancy {
-    color: var(--main-blue);
-    font-size: 32px;
-}
-
 #welcome-text p {
     font-size: 28px;
 }
@@ -81,5 +95,47 @@ nav a:hover {
     text-decoration: none;
     color: var(--speel-blue);
     display: block;
+    font-size: 20px;
+}
+
+/* form */
+
+#login {
+    padding: 15px 0;
+}
+
+#login-form {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid var(--speel-blue);
+}
+
+#login-form input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-bottom: 3px solid var(--speel-blue);
+}
+
+#login-form input:focus {
+    border-bottom: 3px solid var(--speel-geel);
+}
+
+#login-form button {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+/* uitnodiging */
+
+#invite {
+    display: none;
+    padding: 10px;
+}
+
+#invite p {
     font-size: 20px;
 }
