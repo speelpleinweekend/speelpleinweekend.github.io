@@ -18,12 +18,6 @@ let users = [
         "kleding": "Alledaags"
     },
     {
-        "name": "Demy",
-        "lastname": "Noppe",
-        "password": "Dwine",
-        "kleding": "Alledaags"
-    },
-    {
         "name": "Joppe",
         "lastname": "Lefebvre",
         "password": "Joppiesaus",
