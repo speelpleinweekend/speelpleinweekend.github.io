@@ -39,7 +39,7 @@ body{
 
 @font-face {
     font-family: 'Speelplein';
-    src: url('../fonts/AGENTORANGE.ttf') format('truetype');
+    src: url('AGENTORANGE.ttf') format('truetype');
 }
 
 h1, h2, h3 {
