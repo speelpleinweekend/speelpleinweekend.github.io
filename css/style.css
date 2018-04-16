@@ -37,6 +37,15 @@ body{
     font-family: 'Agency FB', Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+    font-family: 'Speelplein';
+    src: url('/fonts/AGENTORANGE.ttf') format('truetype');
+}
+
+h1, h2, h3 {
+    font-family: "Speelplein", 'Agency FB';
+}
+
 header {
     min-height: 70px;
     display: flex;

@@ -39,7 +39,7 @@ if(localStorage.getItem("currentUser")) {
 
 function loggedIn() {
     localStorage.setItem("currentUser", JSON.stringify(curUser));
-    infobox.innerHTML = "<p>Beste " + curUser.name + " " + curUser.lastname + "</p>";
+    infobox.innerHTML = "<h2>Beste " + curUser.name + " " + curUser.lastname + "</h2>";
     inviteBox.style.display = "block";
     loginBox.style.display = "none";
     tenueTxt.innerHTML = curUser.kleding;
