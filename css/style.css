@@ -39,11 +39,11 @@ body{
 
 @font-face {
     font-family: 'Speelplein';
-    src: url('AGENTORANGE.ttf') format('truetype');
+    src: url('../fonts/AGENTORANGE.ttf') format('truetype');
 }
 
 h1, h2, h3 {
-    font-family: "Speelplein", 'Agency FB';
+    font-family: "Speelplein", 'Agency FB', Arial, Helvetica, sans-serif;
 }
 
 header {
