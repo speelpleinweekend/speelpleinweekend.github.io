@@ -46,5 +46,11 @@ let users = [
         "lastname": "Stichelbaut",
         "password": "Motti123",
         "kleding": "Alledaags"
+    },
+    {
+        "name": "Speelplein",
+        "lastname": "De Speelberg",
+        "password": "tomberg",
+        "kleding": "ballon"
     }
 ];
