@@ -59,7 +59,7 @@ function printPage() {
         print();
         showPrintBtn();
         showHeader();
-    }, 500);
+    }, 300);
 }
 
 function hideHeader() {
