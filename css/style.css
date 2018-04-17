@@ -145,6 +145,32 @@ nav a:hover {
     padding: 10px;
 }
 
-#invite p {
-    font-size: 20px;
+#invite p, li {
+    font-size: 18px;
+}
+
+#invite ul {
+    margin: 15px;
+}
+
+/* function btns */
+
+.page-function {
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: var(--speel-blue);
+}
+
+#print-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+.page-function img {
+    width: 50%;
+    height: 50%;
 }
