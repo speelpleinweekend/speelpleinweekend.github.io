@@ -164,7 +164,7 @@ nav a:hover {
 }
 
 #print-btn {
-    position: absolute;
+    position: fixed;
     bottom: 30px;
     right: 30px;
     display: none;
@@ -173,4 +173,48 @@ nav a:hover {
 .page-function img {
     width: 50%;
     height: 50%;
+}
+
+@media (max-width: 840px) {
+    #brand h1 {
+        font-size: 22px;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #welcome-wrap {
+        margin: 0;
+    }
+
+    #invite li {
+        margin-left: 10px;
+    }
+
+    .container {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+    }
+
+    #print-btn {
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .page-function {
+        width: 60px;
+        height: 60px;
+    }
+
+    #welcome img {
+        display: none;
+    }
+
+    #links {
+        padding: 10px;
+    }
 }
